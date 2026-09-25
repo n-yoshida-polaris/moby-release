@@ -16,7 +16,6 @@ Moby には以下のサードパーティ製ソフトウェアが含まれてい
 |---|---|---|
 | Electron | 34.5.8 | MIT |
 | express | 5.2.1 | MIT |
-| chokidar | 5.0.0 | MIT |
 | fluent-ffmpeg | 2.1.3 | MIT |
 | ffmpeg-static | 5.3.0 | GPL-3.0-or-later |
 | ffprobe-static | 3.1.0 | MIT |
