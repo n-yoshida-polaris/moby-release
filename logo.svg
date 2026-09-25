@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141e30"/>
+      <stop offset="100%" stop-color="#07090f"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="18" y1="26" x2="82" y2="74" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#a0c0ff"/>
+      <stop offset="100%" stop-color="#3558d4"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7aa2ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7aa2ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="100" height="100" rx="22" fill="url(#bg)"/>
+
+  <!-- Subtle top highlight -->
+  <rect width="100" height="54" rx="22" fill="url(#glow)"/>
+
+  <!-- Border -->
+  <rect width="100" height="100" rx="22" fill="none" stroke="rgba(122,162,255,0.12)" stroke-width="1.5"/>
+
+  <!-- M letterform -->
+  <path d="M 18 74 L 18 26 L 50 55 L 82 26 L 82 74"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="11"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
